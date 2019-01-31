@@ -1,0 +1,35 @@
+.header{
+  background-color: grey;
+  font-style: oblique;
+  font-size: 100%;
+  margin: auto;
+  padding-top: 50px
+}
+
+.footer{
+  background-color: grey;
+
+}
+
+.borders{
+  border:solid ;
+  margin-left: 390px;
+  margin-right: 390px;
+  margin-top: 70px;
+  padding-top: 20px;
+}
+
+body{
+  background-color: black;
+  color: rgb(208,147,94);
+}
+
+#sitename{color: black;}
+#details{color:black;}
+
+.bottom{margin: auto;}
+footer{height:100px;}
+
+.footer p {
+  color: black
+}
