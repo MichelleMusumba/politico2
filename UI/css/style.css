@@ -137,4 +137,11 @@ li.drodown{
   text-align: center;
   margin:20 auto;
 }
+.center{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;;
+}
 
