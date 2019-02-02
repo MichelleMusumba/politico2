@@ -139,7 +139,7 @@ li.drodown{
   color:#0a0808 ;
 }
 /* Form */
-.form h1{
+.form h1,h3{
   width: 100%;
   text-align: center;
   margin:20 auto;
