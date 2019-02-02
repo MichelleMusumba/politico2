@@ -33,7 +33,21 @@ h1{
  li{
 float: right;
 }
-
+/* Table  */
+th{
+  padding:10px;
+  background-color: #ddd;
+}
+td{
+  text-align: center;
+  padding: 1%;
+}
+tr:nth-child(even){
+  background-color: #ef9a9a;
+}
+tr:hover{
+  background-color: #ddd;
+}
 .topnav a{
   text-decoration: none;
   color: #0a0808;
@@ -88,8 +102,33 @@ li.drodown{
 
 .dropdown:hover .dropdown-content{
   display:block;
+
+}
+
+.active-link{
+  background-color: #f1f1f1;
+  color:#ef9a9a;
+}
+.active-link-dropdown{
+  color: #f1f1f1;
+  background-color:#ef9a9a;
 }
 
 
 
+.offices{
+  text-align: center;
+}
+
+.button{
+  background-color: #ef9a9a;
+  color: #0a0808;
+  padding: 10px;
+  margin: 20px auto;
+  border: none;
+}
+.button:hover{
+  background-color: #ddd;
+  color:#0a0808 ;
+}
 
