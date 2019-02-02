@@ -34,6 +34,12 @@ h1{
 float: right;
 }
 /* Table  */
+table{
+  margin-left:auto ;
+  margin-right:auto;
+  width: 100%; 
+
+}
 th{
   padding:10px;
   background-color: #ddd;
@@ -144,4 +150,9 @@ li.drodown{
   margin-right: auto;
   width: 20%;;
 }
+p{
+  text-align: center;
+  margin-left:auto ;
+  margin-right: auto;
 
+}

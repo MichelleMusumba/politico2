@@ -13,32 +13,41 @@
     <div class="header"></div>
     <h1>POLITICO</h1><br /><br /><br /><br /><br />
   </div>
-  <form class="" action="index.html" method="post" align="center">
-    <br /><br /> Username
-    <input type="text" name="Username" /><br /><br />
-    Password
-    <input type="password" name="password" /><br /><br />
-    <a href="resetpassword.html">Forgot password? </a><br /><br />
-    <button> Sign In </button><br /><br /><br />
-    Don't have an account?
-    <a href="sign-up.html">Sign Up</a>
-  </form>
-</body>
-<footer>
-  <div class="bottom"><br /><br /><br /><br /><br />
-    <div class="footer">
-      <div align="center" class="terms">
-        <p>&copy 1998 to 2010</p><br />
-      </div>
-      <div align="center" class="terms">
-        <p>All Rights Reserved</p><br />
-      </div>
-      <div align="center" class="terms">
-        <p>contacts:0712752258<br />
-          andenyimichelle@gmail.com</p>
+  <div>
+    <form class="" method="post" align="center">
+      <br /><br /> Username
+      <input type="text" name="Username" /><br /><br />
+      Password
+      <input type="password" name="password" /><br /><br />
+      <a href="resetpassword.html">Forgot password? </a><br /><br />
+    </form>
+    <button class="button center" onclick="openDashboard()">Sign In </button><br /><br />
+    <p> Don't have an account?
+      <a href="sign-up.html">Sign Up</a></p>
+  </div>
+
+
+  <footer>
+    <div class="bottom"><br /><br /><br /><br /><br />
+      <div class="footer">
+        <div align="center" class="terms">
+          <p>&copy 1998 to 2010</p><br />
+        </div>
+        <div align="center" class="terms">
+          <p>All Rights Reserved</p><br />
+        </div>
+        <div align="center" class="terms">
+          <p>contacts:0712752258<br />
+            andenyimichelle@gmail.com</p>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
+  <script type="application/javascript">
+    function openDashboard() {
+      window.location.href = "dash-user.html"
+    }
+  </script>
+</body>
 
 </html>
