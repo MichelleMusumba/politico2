@@ -131,4 +131,10 @@ li.drodown{
   background-color: #ddd;
   color:#0a0808 ;
 }
+/* Form */
+.form h1{
+  width: 100%;
+  text-align: center;
+  margin:20 auto;
+}
 
