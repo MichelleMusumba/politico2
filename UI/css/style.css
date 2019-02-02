@@ -32,6 +32,7 @@ h1{
 }
  li{
 float: right;
+margin: 10px;
 }
 /* Table  */
 table{
@@ -155,4 +156,7 @@ p{
   margin-left:auto ;
   margin-right: auto;
 
+}
+select{
+  width: 100%;
 }
